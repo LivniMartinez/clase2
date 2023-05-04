@@ -1,7 +1,7 @@
 <?php
 
     class Producto {
-        //DEFINICION DE LOS ATRIBUTOS
+    //DEFINICION DE LOS ATRIBUTOS
     public string $nombre;
     public int $precio;
     public bool $disponible;
@@ -15,7 +15,7 @@
         $this->precio = $precio;
         $this->disponible = $disponible;
     }
-    //DEFINICION DE METODOS
+        //DEFINICION DE METODOS
         public function mostrarProducto () {
             echo "El producto es: " . $this->nombre . " y su precio es de: " . $this->precio; 
         }
