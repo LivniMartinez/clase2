@@ -19,5 +19,22 @@
         public function mostrarProducto () {
             echo "El producto es: " . $this->nombre . " y su precio es de: " . $this->precio; 
         }
+        //METODO GET PARA LA PROPIEDAD PROTEGIDA DE NOMBRE
+        public function getNombre () : string {
+            return $this->nombre;
+        }
+        //METODO SET PARA LA PROPIEDAD PROTEGIDA DE NOMBRE
+        public function setNombre (string $nombre) {
+           $this->nombre; 
+        }
+    
     }
+
+    $producto = new Producto ("Tablet", 200, true);
+    //$producto->mostrarProducto ();
+    echo $producto->nombre; //PRODUCE UN ERROR
+    echo $producto->getNombre; //OBTIENE EL NOMBRE
+    $producto->setNombre("Nuevo Nombre"); //SETEA EL NOMBRE
+    echo $producto->getNombre; //OBTIENE EL NOMBRE 
+
 ?>
