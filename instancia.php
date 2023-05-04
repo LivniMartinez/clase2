@@ -36,6 +36,9 @@
         //LLAMADO AL METODO MOSTRAR PRODUCTO, UTILIZANDO SINTAXIS DE FLECHA ->
         $producto2->mostrarProducto();
 
-    //IMPRESION DE PANTALLA DEL SEGUNDO OBJETO
+        //IMPRESION DE PANTALLA DEL SEGUNDO OBJETO
+        echo "<pre>";
+        var_dump($producto2);
+        echo "</pre>";
 ?>
 
