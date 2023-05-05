@@ -31,10 +31,10 @@
     }
 
     $producto = new Producto ("Tablet", 200, true);
-    //$producto->mostrarProducto ();
+    $producto->mostrarProducto ();
     echo $producto->nombre; //PRODUCE UN ERROR
-    echo $producto->getNombre; //OBTIENE EL NOMBRE
+    echo $producto->getNombre (); //OBTIENE EL NOMBRE
     $producto->setNombre("Nuevo Nombre"); //SETEA EL NOMBRE
-    echo $producto->getNombre; //OBTIENE EL NOMBRE 
-    
+    echo $producto->getNombre (); //OBTIENE EL NOMBRE 
+
 ?>
