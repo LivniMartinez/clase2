@@ -40,5 +40,6 @@
         echo "<pre>";
         var_dump($producto2);
         echo "</pre>";
+        
 ?>
 
