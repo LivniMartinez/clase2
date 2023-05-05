@@ -56,6 +56,7 @@
      //METODO DE LA CLASE AUTOMOVIL 
             echo $auto->getTransmision();
 
+            
 ?>
 
  
