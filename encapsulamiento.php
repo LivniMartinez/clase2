@@ -7,7 +7,7 @@
     public bool $disponible;
 
      //METODO CONSTRUCTOR, SE EJECUTA AL EJECUTAR LA ESTANCIA
-     public function _construct(string $nombre, int $precio, bool $disponible)
+     public function __construct(string $nombre, int $precio, bool $disponible)
     {
 
         //SE LES DA VALORES A LOS ATRIBUTOS CON LOS PARAMETROS QUE RECIBE EL METODO CONSTRUCTOR
@@ -36,5 +36,5 @@
     echo $producto->getNombre; //OBTIENE EL NOMBRE
     $producto->setNombre("Nuevo Nombre"); //SETEA EL NOMBRE
     echo $producto->getNombre; //OBTIENE EL NOMBRE 
-
+    
 ?>
